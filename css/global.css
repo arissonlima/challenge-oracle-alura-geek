@@ -30,6 +30,7 @@ ul{
 }
 
 a{
+  display: inline-block;
   text-decoration: none;
 }
 
@@ -41,6 +42,11 @@ img{
 .primary-button{
   background: var(--blue3);
   color: var(--white);
+  width: 182px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary-button:hover{
@@ -52,30 +58,17 @@ img{
   background: transparent;
   color: var(--blue3);
   border: 1px solid var(--blue3);
+  width: 182px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .secondary-button:hover{
   background: var(--blue4);
   border: 1px solid var(--blue3);
   transition: background 0.5s;
-}
-
-.small-button{
-  width: 130px;
-  height: 50px;
-  padding: 1rem;
-}
-
-.medium-button{
-  width: 165px;
-  height: 50px;
-  padding: 1rem;
-}
-
-.large-button{
-  width: 182px;
-  height: 50px;
-  padding: 1rem 2rem;
 }
 
 .container{
