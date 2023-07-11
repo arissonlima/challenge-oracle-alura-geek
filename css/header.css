@@ -60,7 +60,7 @@
   }
 
   .header-logo{
-    width: 100px;
+    width: 180px;
     height: 28px;
   }
 
@@ -74,5 +74,37 @@
 
   .secondary-button{
     width: 166px;
+  }
+}
+
+@media(max-width: 400px){
+  .header{
+    padding: 1.375rem 1rem;
+  }
+
+  .header-actions{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+  }
+
+  .header-search-bg{
+    width: 36px;
+    background: transparent;
+    
+  }
+
+  .header-search-input{
+    display: none;
+  }
+
+  .header-search-btn{
+    display: block;
+  }
+
+  .secondary-button{
+    width: 133px;
+    margin-left: 1rem;
   }
 }
