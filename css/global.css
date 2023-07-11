@@ -1,15 +1,22 @@
 :root{
   --white: #FFFFFF;
+
   --blue1: #EAF2FD;
-  --blue2: #2A7AE4;
+  --blue2: #5595E9;
+  --blue3: #2A7AE4;
+  --blue4: #D4E4FA;
+
   --gray1: #F5F5F5;
+
   --black1: #464646;
+  --black2: #A2A2A2;
 }
 
 body{
   font-family: "Raleway", sans-serif;
   margin: 0px;
-  color: #464646;
+  background: var(--gray1);
+  color: var(--black1);
 }
 
 h1, h2, h3, p{
@@ -22,7 +29,57 @@ ul{
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 img{
   max-width: 100%;
   display: block;
+}
+
+.primary-button{
+  background: var(--blue3);
+  color: var(--white);
+}
+
+.primary-button:hover{
+  background: var(--blue2);
+  transition: background 0.5s;
+}
+
+.secondary-button{
+  background: transparent;
+  color: var(--blue3);
+  border: 1px solid var(--blue3);
+}
+
+.secondary-button:hover{
+  background: var(--blue4);
+  border: 1px solid var(--blue3);
+  transition: background 0.5s;
+}
+
+.small-button{
+  width: 130px;
+  height: 50px;
+  padding: 1rem;
+}
+
+.medium-button{
+  width: 165px;
+  height: 50px;
+  padding: 1rem;
+}
+
+.large-button{
+  width: 182px;
+  height: 50px;
+  padding: 1rem 2rem;
+}
+
+.container{
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem;
 }
