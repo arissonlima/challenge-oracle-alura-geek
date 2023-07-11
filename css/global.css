@@ -1,0 +1,28 @@
+:root{
+  --white: #FFFFFF;
+  --blue1: #EAF2FD;
+  --blue2: #2A7AE4;
+  --gray1: #F5F5F5;
+  --black1: #464646;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  color: #464646;
+}
+
+h1, h2, h3, p{
+  margin: 0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
