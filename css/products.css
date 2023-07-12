@@ -76,6 +76,10 @@
     font-size: 0.875rem;
   }
 
+  .products{
+    gap: 0.5rem;
+  }
+
   .product img{
     width: 156px;
     height: 174px;

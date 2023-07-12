@@ -47,6 +47,11 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .primary-button:hover{
