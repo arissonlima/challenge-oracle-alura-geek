@@ -88,6 +88,7 @@
 @media(max-width: 800px){
 .footer{
   gap: 5.875rem;
+  flex-wrap: wrap;
 }
 
   .footer-content{
